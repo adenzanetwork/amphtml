@@ -13,7 +13,7 @@ export function adenza(global, data) {
   const url =
     'https://develop.adenza.network/network/data/teasers/' +
     encodeURIComponent(data['blockId']) +
-    '/script.js?async=1&div=c';
+    '/script?async=1&div=c';
 
     const mainBlock = global.document.getElementById('c');
     const insertionBlock = global.document.createElement('div');
