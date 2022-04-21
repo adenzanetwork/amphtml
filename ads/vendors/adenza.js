@@ -11,7 +11,7 @@ export function adenza(global, data) {
   console.log('data', data);
 
   const url =
-    'https://develop.adenza.network/network/data/teasers/' +
+    'https://adenza.network/network/data/teasers/' +
     encodeURIComponent(data['blockId']) +
     '/script?async=1&div=c';
 
